@@ -9,4 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.spadatech.nanodegree.jokeviewer.JokeViewerActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/tv_joke"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
