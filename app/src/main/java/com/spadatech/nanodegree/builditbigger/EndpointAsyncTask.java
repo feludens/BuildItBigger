@@ -24,6 +24,11 @@ class EndpointsAsyncTask extends AsyncTask<EndpointsAsyncTask.OnJokeRetrievedLis
         this.listener = listener;
         this.spinner = spinner;
     }
+
+    public EndpointsAsyncTask() {
+
+    }
+
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
